@@ -1,0 +1,21 @@
+body {
+  background-color: lightgray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+.flex-box {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+}
+
+.question-tab {
+  width: 30%;
+  overflow: hidden;
+  background-color: white;
+  border: 3px black solid;
+  font-weight: bolder;
+  font-size: larger;
+  padding: 50px;
+}
