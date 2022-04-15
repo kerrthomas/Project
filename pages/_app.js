@@ -1,7 +1,17 @@
 import '../styles/globals.css'
+import { useEffect } from 'react';
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+function App({Component, pageProps}) {
+
+  useEffect(() => {
+    require('bootstrap/dist/css/bootstrap.min.css');
+  }, []);
+
+  return (
+    <>
+      <Component {...pageProps} />
+    </>
+  );
 }
 
-export default MyApp
+export default App;
