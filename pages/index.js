@@ -5,20 +5,16 @@ import styles from '../styles/Home.module.css'
 function App() {
   return (
     <div className={styles.container}>
-        <header className={styles.headerAlign}>
-          <h1>Questions and Answers</h1>
-          <span>Login</span>
-        </header>
-      <div className={"flex-box"}>
-        <table>
-          <td>
-            <tr><button className="question-tab">Question 1</button></tr>
-            <tr><button className="question-tab">Question 2</button></tr>
-            <tr><button className="question-tab">Question 3</button></tr>
-            <tr><button className="question-tab">Question 4</button></tr>
-            <tr><button className="question-tab">Question 5</button></tr>
-          </td>
-        </table>
+      <header className={styles.headerAlign}>
+        <h1>Questions and Answers</h1>
+        <span>Login</span>
+      </header>
+      <div className={styles.catContainer}>
+        <button className={styles.catTab}>Category 1</button>
+        <button className={styles.catTab}>Category 2</button>
+        <button className={styles.catTab}>Category 3</button>
+        <button className={styles.catTab}>Category 4</button>
+        <button className={styles.catTab}>Category 5</button>
       </div>
     </div>
   );

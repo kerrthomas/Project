@@ -5,19 +5,10 @@ body {
   text-align: center;
 }
 
-.flex-box {
-  display: flex;
-  flex-flow: row nowrap;
+header {
+  border-bottom: 5px solid black;
+  display: block;
   width: 100%;
-  border-top: 10px;
-}
-
-.question-tab {
-  width: 200px;
-  overflow: hidden;
-  background-color: white;
-  border: 3px black solid;
-  font-weight: bolder;
-  font-size: larger;
-  padding: 50px;
+  height: 10vh;
+  background-color: bisque;
 }
