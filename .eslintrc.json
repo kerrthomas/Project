@@ -1,3 +1,7 @@
 {
   "extends": "next/core-web-vitals"
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> faa93d5aac5510736433e0b60fb2cc7595c5c818
